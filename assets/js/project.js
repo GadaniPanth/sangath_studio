@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', ()=>{
+    // new WOW().init();
+    
     const imgs = [
         { src: './assets/images/project/terra-pavilion/img1.jfif' },
         { src: './assets/images/project/terra-pavilion/img2.jfif' },

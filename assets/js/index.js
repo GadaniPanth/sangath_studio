@@ -1,8 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // setTimeout(()=>{
-    //     new WOW().init();
-    // }, 4000)
-    new WOW().init();
+    setTimeout(()=>{
+        new WOW().init();
+    }, 4000)
 
     // const loading_div = document.querySelector('.loading_div');
     // setTimeout(()=>{
