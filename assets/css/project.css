@@ -23,11 +23,14 @@
 
 .section-padding {
     padding: 2rem 0;
+    padding-bottom: 0;
 }
 
 .font_13 {
     font-size: 14px;
 }
+
+.scroll_container {}
 
 .horizontal_scroll_div {
     display: flex;
@@ -41,9 +44,17 @@
     position: absolute;
     top: 0;
     overflow-y: hidden;
+    overflow-x: scroll !important;
     width: 650%;
     z-index: 1 !important;
     max-height: 85dvh;
+    cursor: grab;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.horizontal_scroll_div.dragging {
+    cursor: grabbing;
 }
 
 .scroll_img_container {
@@ -167,6 +178,8 @@ img {
 @media only screen and (max-width:1680px) {
     .section-padding {
         padding: 3rem 0;
+        padding-bottom: 0;
+
     }
 
     .font_13 {
@@ -231,6 +244,8 @@ img {
 @media only screen and (max-width:1280px) {
     .section-padding {
         padding: 2rem 0;
+        padding-bottom: 0;
+
     }
 
     .horizontal_scroll_div {
@@ -249,16 +264,17 @@ img {
     }
 
     .horizontal_scroll_div {
-        width: 1100%;
+        width: 1092%;
         max-height: 80dvh;
     }
 
     .scroll_head {
-        width: 17%;
+        /* width: 17%; */
+        margin-left: 2dvw;
     }
 
     .scroll_img_container {
-        width: 900%;
+        width: 600%;
         gap: 15px;
     }
 }
