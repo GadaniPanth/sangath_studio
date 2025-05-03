@@ -16,7 +16,7 @@
     text-transform: uppercase;
     padding-bottom: 5px;
 
-    p {
+    s p {
         font-family: var(--medium-font-family);
     }
 }
@@ -26,7 +26,7 @@
     padding-bottom: 0;
 }
 
-.font_13 {
+.project .font_13 {
     font-size: 14px;
 }
 
@@ -102,7 +102,7 @@
 .info {
     margin: 18px 0;
 
-    .font_13 {
+    .project .font_13 {
         color: #2e2e2ead;
         text-transform: capitalize;
     }
@@ -176,13 +176,13 @@ img {
 }
 
 @media only screen and (max-width:1680px) {
-    .section-padding {
+    .project .section-padding {
         padding: 3rem 0;
         padding-bottom: 0;
 
     }
 
-    .font_13 {
+    .project .font_13 {
         font-size: 13px;
     }
 
@@ -218,7 +218,7 @@ img {
 }
 
 @media only screen and (max-width:1366px) {
-    .font_13 {
+    .project .font_13 {
         font-size: 11px;
     }
 
@@ -242,7 +242,7 @@ img {
 }
 
 @media only screen and (max-width:1280px) {
-    .section-padding {
+    .project .section-padding {
         padding: 2rem 0;
         padding-bottom: 0;
 
@@ -258,7 +258,7 @@ img {
 }
 
 @media only screen and (max-width:1152px) {
-    .section-padding {
+    .project .section-padding {
         padding: 0;
         padding-top: 1rem;
     }
@@ -290,7 +290,7 @@ img {
         font-size: 30px;
     }
 
-    .font_13 {
+    .project .font_13 {
         font-size: 11px;
     }
 
@@ -298,7 +298,7 @@ img {
         font-size: 12px;
     }
 
-    .section-padding {
+    .project .section-padding {
         padding: 8rem 0;
     }
 
@@ -372,7 +372,7 @@ img {
             max-height: fit-content;
         }
 
-        .font_13 {
+        .project .font_13 {
             font-size: 15px;
         }
 
@@ -397,7 +397,7 @@ img {
         font-size: 30px;
     }
 
-    .font_13 {
+    .project .font_13 {
         font-size: 14px;
     }
 

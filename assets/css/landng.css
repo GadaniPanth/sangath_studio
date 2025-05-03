@@ -56,3 +56,7 @@
     left: 55%;
     transform: translate(-50%, -50%);
 }
+
+.var_imgs {
+    background-image: url('/assets/images/banners/gallery-01.jpg');
+}
